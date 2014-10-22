@@ -1,6 +1,7 @@
-package com.zaapam.opium;
+package com.zaapam.ginaraidee;
 
 import com.squareup.seismic.ShakeDetector;
+import com.zaapam.ginaraidee.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;

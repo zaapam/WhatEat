@@ -1,0 +1,25 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Breakfast Meal",
+      "breakfast": 1,
+      "lunch": 0,
+      "dinner": 0
+    },
+    {
+      "id": 2,
+      "name": "Hamberger",
+      "breakfast": 1,
+      "lunch": 1,
+      "dinner": 1
+    },
+    {
+      "id": 3,
+      "name": "Steak",
+      "breakfast": 0,
+      "lunch": 1,
+      "dinner": 1
+    }
+  ]
+}

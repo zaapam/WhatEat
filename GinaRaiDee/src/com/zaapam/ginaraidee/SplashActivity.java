@@ -1,14 +1,25 @@
-package com.zaapam.opium;
+package com.zaapam.ginaraidee;
 
+import com.zaapam.ginaraidee.R;
+
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 
 public class SplashActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		//ActionBar bar = getActionBar();
+		//bar.hide();
+		
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 0);
 		setContentView(R.layout.activity_splash);
 		
 		Thread background = new Thread() {
