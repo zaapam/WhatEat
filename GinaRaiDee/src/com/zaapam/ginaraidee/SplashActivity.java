@@ -28,9 +28,9 @@ public class SplashActivity extends Activity {
                 try {
                     // Thread will sleep for 5 seconds
                     sleep(5*1000);
-                    
+                     
                     /// Load logic part
-                    ((GinaRaiDee)getApplication()).getFoodManager().load();
+                    ((GinaRaiDee)getApplicationContext()).getFoodManager().load();
                     
                     // After 5 seconds redirect to another intent
                     Intent i = new Intent(getBaseContext(), MainActivity.class);

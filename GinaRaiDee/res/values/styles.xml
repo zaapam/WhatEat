@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -15,6 +15,20 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+        <item name="android:actionBarStyle">@style/GRDActionBar</item>
+        
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/GRDActionBar</item>
+    </style>
+    
+    <!-- ActionBar styles -->
+    <style name="GRDActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/red</item>
+        
+        <!-- Support library compatibility -->
+        <item name="background">@color/red</item>
     </style>
 
     <style name="button" parent="@android:style/Widget.Button">
@@ -30,5 +44,7 @@
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
     </style>
+    
+    
     
 </resources>
