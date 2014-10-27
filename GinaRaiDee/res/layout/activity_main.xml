@@ -25,21 +25,21 @@
 
         <Button
             android:id="@+id/button2"
-            style="@style/button"
+            style="@style/button_group_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />
 
         <Button
             android:id="@+id/Button01"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/button_group_center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />
 
         <Button
             android:id="@+id/Button02"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/button_group_right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />

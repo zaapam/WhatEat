@@ -8,22 +8,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zaapam.ginaraidee.ResultActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="135dp"
-        android:text="Result Page" />
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="135dp"
-        android:layout_marginTop="135dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
+        android:id="@+id/linearLayout1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:orientation="vertical" >
 
         <ImageView
@@ -32,7 +22,16 @@
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             android:src="@drawable/food_1" />
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_result_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20sp"
+        android:text="Result Page" />
 
 </RelativeLayout>

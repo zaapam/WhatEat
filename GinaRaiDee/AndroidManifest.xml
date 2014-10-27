@@ -14,7 +14,8 @@
         android:theme="@style/AppTheme" android:name="GinaRaiDee">
         <activity
             android:name="com.zaapam.ginaraidee.MainActivity"
-            android:label="@string/app_name" >
+            android:icon="@drawable/logo"
+            android:label="" >
         </activity>
         <activity
             android:theme="@android:style/Theme.Black.NoTitleBar"
@@ -27,7 +28,8 @@
         </activity>
         <activity
             android:name="com.zaapam.ginaraidee.ResultActivity"
-            android:label="@string/title_activity_result" >
+            android:icon="@drawable/logo"
+            android:label="" >
         </activity>
     </application>
 

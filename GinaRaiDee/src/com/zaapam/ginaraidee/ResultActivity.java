@@ -1,18 +1,26 @@
 package com.zaapam.ginaraidee;
 
 import com.zaapam.ginaraidee.R;
+import com.zaapam.ginaraidee.models.FoodManager;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class ResultActivity extends ActionBarActivity {
 
+	private FoodManager foodManager;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_result);
+		
+		foodManager = new FoodManager(this);
+		
+		TextView textResult = (TextView)findViewById(R.id.text_result_food);
 	}
 
 	@Override
